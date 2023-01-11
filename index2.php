@@ -7,6 +7,9 @@
        <select  id="day">
            <?php
            // TODO list of day
+           for($i = 1; $i < 8; $i++) {
+               echo "<p>$i</p><br>";
+           }
            ?>
        </select>
 
@@ -14,6 +17,10 @@
        <select  id="month">
            <?php
            // TODO list of month
+           for($i = 1; $i < 13; $i++) {
+               echo "<p>$i</p><br>";
+           }
+           ?>
            ?>
        </select>
 
@@ -21,7 +28,10 @@
        <select  id="year">
            <?php
            // TODO list of year 2018, 2019, 2020 --> Bonus : faites le avec une vraie date en PHP, renseignez vous sur la doc
-
+           for($i = 2018; $i < 2021; $i++) {
+               echo "<p>$i</p><br>";
+           }
+           ?>
            ?>
        </select>
      </form>

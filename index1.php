@@ -11,11 +11,18 @@
     <?php
         //students
         $students = ['Hulk', 'Iron Man', 'Wonder Woman', 'Black Widow', 'Malicia'];
-     ?>
-     <ul>
+    ?>
+    <ul>
        <?php
             // TODO votre code ici
+       foreach($students as $mot) {
+           echo "<li>$mot</li><br>";
+       }
        ?>
-     </ul>
+       ?>
+    </ul>
 
     <!-- Incluez le fichier index2.php ici bas de manière a obtenir la suite du code HTML. -->
+    <?php
+       require "./index2.php";
+    ?>
